@@ -14,7 +14,7 @@ export default class Page extends Component {
 
     render() {
     
-        const T = Translator({from: "en"});   // {from: "en", to: "ja"} => Force language to be converted to.
+        const T = Translator({from: "en"});
         
         console.log(translate("Hello, world", { from: "en", to: "fr" }));  // => "Bonjour le monde"
         
