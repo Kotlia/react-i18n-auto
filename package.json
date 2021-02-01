@@ -1,6 +1,6 @@
 {
   "name": "@kotlia/react-i18n-auto",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple react component to automatically translate string component with Google Translate API.",
   "main": "src/index.tsx",
   "scripts": {
