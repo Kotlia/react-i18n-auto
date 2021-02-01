@@ -38,4 +38,4 @@ export default class Page extends Component {
 Creates translator.
 
 > **from**:	Language code of the original language.  
-> **to**:	Force language to be converted to. By default, text will be translated to the browser language. (```navigator.languages```)
+> **to**:	Force language to be converted to. By default, text will be translated to the browser language. (```navigator.language```)
