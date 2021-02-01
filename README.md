@@ -11,11 +11,12 @@ import React, { Component } from "react"
 import Translator, { translate } from 'react-i18n-auto'
 
 export default class Page extends Component {
+
     render() {
     
-        const T = Translator({from: "en"});
+        const T = Translator({from: "en"});   // {from: "en", to: "ja"} => Force language to be converted to.
         
-        console.log(translate("Hello, world", { from: "en", to: "fr" }))  // => "Bonjour le monde"
+        console.log(translate("Hello, world", { from: "en", to: "fr" }));  // => "Bonjour le monde"
         
         return (
             <>
@@ -24,6 +25,7 @@ export default class Page extends Component {
         );
         
     }
+    
 }
 ```
 
