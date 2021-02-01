@@ -1,6 +1,6 @@
 # react-i18n-auto
 
-> A simple react component to automatically translate string component with Google Translate API - without API Key!.
+> A simple react component to automatically translate string component with Google Translate API - without API Key.
 
 
 
